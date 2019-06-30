@@ -1,0 +1,65 @@
+*Markdownotl.txt*                                     Last change: 2019 Jun 11
+
+                                                                    *Markdownotl*
+Markdownotl - Vim Markdown Outliner~
+
+votl and Vimoutliner are two implementations of comfortable outlining in Vim.
+Outlining for writing text helps to create structure, but publishing in
+outline format is not practical. There are many conversion scripts available
+for outlines, but I like Pandoc for most of my text-to-publish work. 
+
+Markdownotl provides easy conversion from outline-format to markdown, and vice
+versa.
+
+Markdownotl uses tab based outlines. This means that the first level has no
+indentation and every other level is preceded by tabs. 
+
+Vimoutliner and votl are two Vim plugins that make it easier to create and
+change outlines in Vim. Although they are not required to make a tab-based
+outline, it is recommended that you install one of these plugins. The settings
+and colorscheme are optimized for tab based outlines.
+
+==============================================================================
+
+Version                                                    |Markdownotl-version|
+Requirements                                          |Markdownotl-requirements|
+Commands                                                  |Markdownotl-commands|
+
+==============================================================================
+                                                           *Markdownotl-version*
+Version 0.1 	initial release 	June 2019
+
+A long time ago I found two functions that were posted as an answer to the
+question how to convert to markdown. I found these in a gist with the sidenote
+that the original was not known anymore. Brandon Pittman posted the gist. 
+
+==============================================================================
+                                                      *Markdownotl-requirements*
+Requirements~
+
+* Vim version 6 or higher	http://vim.org
+* Vimoutliner or 		https://github.com/vimoutliner/vimoutliner
+* votl				https://github.com/insanum/votl
+
+Vim version 6 introduced folding, which is an essential feature for using
+outliners. You can choose Vimoutliner or votl, or even TVO, as long as you are
+creating tabbed oulines comfortably.
+
+==============================================================================
+                                                          *Markdownotl-commands*
+Commands~
+
+
+Vo2md 		convert from Vimoutliner to markdown
+Md2vo 		convert from markdown to Vimoutliner
+VMToggle	toggle between markdown and Vimoutliner
+
+
+============================================================================
+                                                         *Markdownotl-version*
+Version~
+
+  Version 0.1 
+    - Initial version
+
+vim:set filetype=help textwidth=78:
