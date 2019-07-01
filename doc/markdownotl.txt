@@ -29,13 +29,14 @@ Commands                                                  |Markdownotl-commands|
                                                            *Markdownotl-version*
 Version 0.1 	initial release 	June 2019
 
-A long time ago I found two functions that were posted as an answer to the
-question how to convert to markdown. I found these in a gist with the sidenote
-that the original was not known anymore. Brandon Pittman posted the gist. 
+The Vimoutliner to markdown functions came from Brandon Pittman, the orginal I
+found earlier on stackoverflow in an answer by Raimondi:
+https://stackoverflow.com/questions/9840644/how-to-convert-from-vimoutliner-to-markdown
+
+Thank you both.
 
 ==============================================================================
-                                                      *Markdownotl-requirements*
-Requirements~
+*Markdownotl-requirements* Requirements~
 
 * Vim version 6 or higher	http://vim.org
 * Vimoutliner or 		https://github.com/vimoutliner/vimoutliner

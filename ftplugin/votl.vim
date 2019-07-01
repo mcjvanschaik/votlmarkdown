@@ -1,7 +1,4 @@
 "# Markdownotl, Vim Markdown Outline conversion
-" Vimoutliner to markdown-commands came from Brandon Pittman, thanks for
-" posting the gist: I have found these functions before in the mailer
-" archives, but your version was easiest to find.
 
 if exists("Markdownotl_loaded")
 	finish
